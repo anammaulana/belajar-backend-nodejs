@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Abaikan semua file .log
+*.log
+
+# Abaikan folder node_modules
+/node_modules/
+
+# Abaikan semua file yang memiliki ekstensi .env
+*.env
+
+# Abaikan folder build
+/build/
